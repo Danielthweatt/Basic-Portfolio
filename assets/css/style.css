@@ -1,0 +1,24 @@
+/* 
+headings and backgrounds: #4aaaa5;
+
+font-family: ;
+*/
+
+/* Global Styles*/
+
+h2, h3 {
+    color: #4aaaa5; 
+}
+
+li {
+    display: inline;
+}
+
+/* Header Styles */
+
+h1, nav {
+    display: inline-block;
+}
+
+/* Footer Styles */
+

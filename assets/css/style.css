@@ -1,6 +1,8 @@
 /* 
-heading 1 color and header and main content background: #ffffff;
-headings 2 and 3 color and heading 1 background and footer border color: #4aaaa5;
+heading 1 color and header and main content background: 
+#ffffff;
+headings 2 and 3 color and heading 1 background and 
+footer border and button color: #4aaaa5;
 header border color: #cccccc;
 main content border color: #dddddd;
 footer background: #666666;
@@ -32,7 +34,6 @@ h2, h3 {
     color: #4aaaa5; 
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
-    border-bottom: 2px solid #cccccc;
     padding-top: 30px;
     padding-bottom: 20px;
     margin-left: 20px;
@@ -41,11 +42,13 @@ h2, h3 {
 
 h2 {
     font-size: 25px;
+    border-bottom: 3px solid #cccccc;
 }
 
 h3 {
     font-size: 23px;
     text-align: center;
+    border-bottom: 1px solid #cccccc;
 }
 
 li {
@@ -116,7 +119,7 @@ section {
 }
 
 .content {
-    margin: 20px 20px 30px;
+    margin: 25px 20px 30px;
 }
 
 section p {
@@ -128,8 +131,20 @@ section p img {
     margin-right: 20px;
 }
 
-section form {
-    line-height: 1.5;
+input[type=text], textarea {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0px 15px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 30px;
 }
 
 aside {
